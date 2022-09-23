@@ -2,7 +2,8 @@
 ## Un subtítulo
 **_`Un párrafo, con palabras en negrita, en cursiva, en código, para ello he utilizado una barra baja con dos asteriscos en cada lado, de esta forma puedo ponerlo en negrita y en cursiva.`_**
 Un trozo de código
->@app.route('/lista_juegos',methods=["POST"])
+```
+@app.route('/lista_juegos',methods=["POST"])
 def lista_juegos():
     URL_BASE="https://api.rawg.io/api/"
     key=os.environ["exportkey"]
@@ -13,7 +14,7 @@ def lista_juegos():
     print ('Texto2=',texto2)
     texto3=request.form.get("texto3")
     print('Texto3=',texto3)
-
+```
 1. Una lista ordenada
 2. Segunda lista ordenada
 3.  Tercera lista ordenada
