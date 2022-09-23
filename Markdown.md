@@ -22,6 +22,7 @@ def lista_juegos():
 - Otra lista desordenada.
 
 Un enlace a una URL externa.
+
 [Mi github](https://www.github.com/evanticks)
 
 Un enlace a otro fichero Markdown que tengas en el repositorio.
@@ -29,7 +30,9 @@ Un enlace a otro fichero Markdown que tengas en el repositorio.
 [Otro fichero Markdown como es el Readme.md](https://github.com/Evanticks/prueba_Antonio_Marchan/blob/main/README.md)
 
 Una imagen
+
 ![alt text](obsidian.png)
+
 Una tabla
 
 | personaje | | |
