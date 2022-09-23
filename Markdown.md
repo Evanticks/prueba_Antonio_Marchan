@@ -1,9 +1,10 @@
 # Un título principal
 ## Un subtítulo
-**_`Un párrafo, con palabras en negrita, en cursiva, en código, para ello he utilizado una barra baja con dos asteriscos en cada lado, de esta forma puedo ponerlo en negrita y en cursiva.`_**
+**Un párrafo, con palabras en negrita**, *en cursiva*, en código
+para ello he utilizado una barra baja con dos asteriscos en cada lado, de esta `forma puedo ponerlo en negrita y en cursiva.`
 Un trozo de código
 ```
-@app.route('/lista_juegos',methods=["POST"])
+
 def lista_juegos():
     URL_BASE="https://api.rawg.io/api/"
     key=os.environ["exportkey"]
@@ -43,3 +44,4 @@ Una tabla
 | altura | number (3,2) |
 | peso | number (3) |
 | raza | varchar2 (10) | "Humano" por defecto
+
